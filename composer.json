@@ -1,0 +1,11 @@
+{
+    "name": "jules/myjobapply",
+    "autoload": {
+        "psr-4": {
+            "Jules\\Myjobapply\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

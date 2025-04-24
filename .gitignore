@@ -1,0 +1,42 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers sensibles et de config
+.env
+.env.local
+.env.production
+.env.development
+
+# Dépendances de Composer
+/vendor/
+
+# Dossiers d’upload
+/uploads/
+uploads/
+
+# Logs
+*.log
+logs/
+storage/logs/
+
+# Cache / sessions
+cache/
+*.cache
+
+# Sauvegardes d'éditeurs
+*.bak
+*.swp
+*.swo
+
+# Fichiers de déploiement temporaires
+*.sql
+*.zip
+
+# IDE / éditeurs
+.vscode/
+.idea/
+
+# Node (au cas où tu fais du front aussi avec npm)
+node_modules/
+package-lock.json
