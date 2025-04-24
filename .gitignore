@@ -1,17 +1,17 @@
-# Fichiers système
+# System files
 .DS_Store
 Thumbs.db
 
-# Fichiers sensibles et de config
+# Sensitive and config files
 .env
 .env.local
 .env.production
 .env.development
 
-# Dépendances de Composer
+# Composer Dependencies
 /vendor/
 
-# Dossiers d’upload
+# Upload folders
 /uploads/
 uploads/
 
@@ -24,19 +24,19 @@ storage/logs/
 cache/
 *.cache
 
-# Sauvegardes d'éditeurs
+# Publisher Backups
 *.bak
 *.swp
 *.swo
 
-# Fichiers de déploiement temporaires
+# Temporary deployment files
 *.sql
 *.zip
 
-# IDE / éditeurs
+# IDE / publishers
 .vscode/
 .idea/
 
-# Node (au cas où tu fais du front aussi avec npm)
+# Node
 node_modules/
 package-lock.json
